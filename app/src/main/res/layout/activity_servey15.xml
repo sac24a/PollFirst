@@ -53,7 +53,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="बसपा 1"
+                    android:text="Khalid Khan"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -62,7 +62,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="बसपा 2"
+                    android:text="Barkatullah Khan"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -76,6 +76,7 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c73"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -85,6 +86,7 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c74"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -94,6 +96,7 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c75"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -130,7 +133,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 1"
+                    android:text="Chandrashekhar Azaad"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -139,7 +142,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 2"
+                    android:text="Rashid Sheikh"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -148,7 +151,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 3"
+                    android:text="Geeta Singh"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -157,7 +160,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 4"
+                    android:text="Pradeep Chand Chaudhary (Pravesh Chaudhary)"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -166,7 +169,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 5"
+                    android:text="Prashant Singh"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"

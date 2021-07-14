@@ -147,7 +147,7 @@ public class Servey13 extends AppCompatActivity implements LocationListener {
                                 apicallToUpload();
                             }
                             else {
-                                Toast.makeText(Servey13.this,"Please check Photo",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Servey13.this,"Please capture Photo",Toast.LENGTH_SHORT).show();
                             }
                         }
                         else {

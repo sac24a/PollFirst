@@ -52,7 +52,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="भाजपा+ 1"
+                    android:text="Mukut Bihari"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -61,7 +61,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="भाजपा+ 2"
+                    android:text="Gaurav Verma"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -70,7 +70,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="भाजपा+ 3"
+                    android:text="Arun Veer Singh"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -84,6 +84,7 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c74"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -93,6 +94,7 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c75"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -102,12 +104,13 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c76"/>
 
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="सपा+ 1"
+                    android:text="Laxmi Narayan Yadav"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -116,7 +119,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="सपा+ 2"
+                    android:text="Ram Tez Yadav"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -125,7 +128,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="सपा+ 3"
+                    android:text="Annand Yadav"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -134,7 +137,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="सपा+ 4"
+                    android:text="Avdhesh Verma"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -143,7 +146,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="सपा+ 5"
+                    android:text="Pramod Singh Jadon"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -157,12 +160,13 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c713"/>
 
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="बसपा 1"
+                    android:text="Khalid Khan"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -171,7 +175,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="बसपा 2"
+                    android:text="Barkatullah Khan"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -184,6 +188,7 @@
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
+                    android:visibility="gone"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c716"/>
                 <CheckBox
@@ -193,6 +198,7 @@
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
+                    android:visibility="gone"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c717"/>
                 <CheckBox
@@ -202,6 +208,7 @@
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
+                    android:visibility="gone"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c718"/>
                 <CheckBox
@@ -212,12 +219,13 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c719"/>
 
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 1"
+                    android:text="Chandrashekhar Azaad"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -226,7 +234,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 2"
+                    android:text="Rashid Sheikh"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -235,7 +243,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 3"
+                    android:text="Geeta Singh"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -244,7 +252,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 4"
+                    android:text="Pradeep Chand Chaudhary (Pravesh Chaudhary)"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -253,7 +261,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कांग्रेस 5"
+                    android:text="Prashant Singh"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -267,11 +275,12 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c725"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="अन्य 1"
+                    android:text="Babu Khan"
                     android:layoutDirection="rtl"
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
@@ -285,6 +294,7 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c727"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -294,6 +304,7 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c728"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -303,6 +314,7 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c729"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -312,6 +324,7 @@
                     android:textSize="18dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c730"/>
                 <CheckBox
                     android:layout_width="match_parent"
