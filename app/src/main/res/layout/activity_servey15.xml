@@ -27,7 +27,7 @@
                 android:text="सर्वे – 2021/10"
                 android:textColor="#000000"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 />
 
             <LinearLayout
@@ -42,10 +42,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-15: बसपा के संभावित नामों में से आप किसको उम्मीदवार के रूप में देखना चाहते हैं?"
+                    android:text="Q-16: बसपा के संभावित नामों में से आप किसको उम्मीदवार के रूप में देखना चाहते हैं?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
@@ -53,18 +53,18 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Khalid Khan"
+                    android:text="Raj Narayan Kureel(BSP)"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c71"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Barkatullah Khan"
+                    android:text="Saroj Kureel(BSP)"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c72"/>
@@ -73,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:text="बसपा 3"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:visibility="gone"
@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:text="बसपा 4"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:visibility="gone"
@@ -93,7 +93,7 @@
                     android:layout_height="wrap_content"
                     android:text="बसपा 5"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:visibility="gone"
@@ -101,9 +101,9 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कोई और"
+                    android:text="Others/can't say"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c76"/>
@@ -123,37 +123,37 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-15: कांग्रेस के संभावित नामों में से आप किसको उम्मीदवार के रूप में देखना चाहते हैं?"
+                    android:text="Q-17: कांग्रेस के संभावित नामों में से आप किसको उम्मीदवार के रूप में देखना चाहते हैं?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
 
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Chandrashekhar Azaad"
+                    android:text="Nand Ram Sonkar(INC)"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c78"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Rashid Sheikh"
+                    android:text="Dr. Kripa Shankar Sankhwar(INC)"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c79"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Geeta Singh"
+                    android:text="Naveen Kumar(INC)"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c710"/>
@@ -162,25 +162,27 @@
                     android:layout_height="wrap_content"
                     android:text="Pradeep Chand Chaudhary (Pravesh Chaudhary)"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
+                    android:visibility="gone"
                     android:id="@+id/c711"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Prashant Singh"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
+                    android:visibility="gone"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c712"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कोई और"
+                    android:text="Others/can't say"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c713"/>

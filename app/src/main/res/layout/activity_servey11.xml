@@ -26,7 +26,7 @@
                 android:text="सर्वे – 2021/10"
                 android:textColor="#000000"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 />
 
             <LinearLayout
@@ -42,7 +42,7 @@
                     android:text="C-9: 2017 के विधान सभा चुनाव में आपने किस पार्टी को वोट दिया था?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:text="भाजपा+ समर्थक दल"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c71"/>
@@ -61,7 +61,7 @@
                     android:layout_height="wrap_content"
                     android:text="सपा+कांग्रेस"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c72"/>
@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:text="बसपा"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c73"/>
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:text="रालोद"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c74"/>
@@ -88,7 +88,7 @@
                     android:layout_height="wrap_content"
                     android:text="अन्य"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c75"/>
@@ -97,7 +97,7 @@
                     android:layout_height="wrap_content"
                     android:text="वोट नहीं था"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c76"/>
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:text="वोट नहीं दिया"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c77"/>
@@ -128,7 +128,7 @@
                     android:text="C-10: 2019 के लोकसभा चुनाव में आपने किस पार्टी को वोट दिया था?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
 
@@ -137,7 +137,7 @@
                     android:layout_height="wrap_content"
                     android:text="भाजपा+ समर्थक दल"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c78"/>
@@ -146,7 +146,7 @@
                     android:layout_height="wrap_content"
                     android:text="सपा+बसपा"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c79"/>
@@ -155,7 +155,7 @@
                     android:layout_height="wrap_content"
                     android:text="कांग्रेस"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c710"/>
@@ -164,7 +164,7 @@
                     android:layout_height="wrap_content"
                     android:text="रालोद"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c711"/>
@@ -173,7 +173,7 @@
                     android:layout_height="wrap_content"
                     android:text="अन्य"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c712"/>
@@ -182,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:text="वोट नहीं था"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c713"/>
@@ -191,7 +191,7 @@
                     android:layout_height="wrap_content"
                     android:text="वोट नहीं दिया"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c714"/>

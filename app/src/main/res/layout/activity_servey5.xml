@@ -30,7 +30,7 @@
                 android:text="सर्वे – 2021/10"
                 android:textColor="#000000"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -42,10 +42,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-3: स्थानीय विधायक के काम काज से कितना संतुष्ट है?"
+                    android:text="Q-4: स्थानीय विधायक के काम काज से कितना संतुष्ट है?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
                 <LinearLayout
@@ -67,6 +67,7 @@
                             android:background="@drawable/verysad"
                             android:layout_margin="10dp"
                             android:id="@+id/verysad3"
+
                             />
                         <ImageView
                             android:layout_width="match_parent"
@@ -176,10 +177,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-4: अगर चुनाव में टिकट मिलेगा तो दोबारा चुनना चाहेंगे?"
+                    android:text="Q-5: अगर चुनाव में टिकट मिलेगा तो दोबारा चुनना चाहेंगे?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
                 <LinearLayout
@@ -276,10 +277,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-5: वर्तमान सरकार के काम काज से कितना संतुष्ट है?"
+                    android:text="Q-6: वर्तमान सरकार के काम काज से कितना संतुष्ट है?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
                 <LinearLayout
@@ -410,10 +411,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-6 क्या आने वाले चुनाव में वर्तमान सरकार को दोबारा चुनना चाहेंगे?"
+                    android:text="Q-7 क्या आने वाले चुनाव में वर्तमान सरकार को दोबारा चुनना चाहेंगे?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
                 <LinearLayout

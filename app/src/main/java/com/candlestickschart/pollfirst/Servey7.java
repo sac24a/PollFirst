@@ -141,19 +141,19 @@ public class Servey7 extends AppCompatActivity {
                                 startActivity(intent);
                             }
                             else {
-                                Toast.makeText(Servey7.this,"Please check Q-12",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Servey7.this,"Please check Q-13",Toast.LENGTH_SHORT).show();
                             }
                         }
                         else {
-                            Toast.makeText(Servey7.this,"Please check Q-11",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Servey7.this,"Please check Q-12",Toast.LENGTH_SHORT).show();
                         }
                     }
                     else {
-                        Toast.makeText(Servey7.this,"Please check Q-10",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Servey7.this,"Please check Q-11",Toast.LENGTH_SHORT).show();
                     }
                 }
                 else {
-                    Toast.makeText(Servey7.this,"Please check Q-9",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Servey7.this,"Please check Q-10",Toast.LENGTH_SHORT).show();
                 }
 
 
@@ -170,6 +170,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_9","बहुत अधिक");
+                    jsonObject.put("q_9","5");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -185,6 +186,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_9","अधिक");
+                    jsonObject.put("q_9","4");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -200,6 +202,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_9","पता नहीं ");
+                    jsonObject.put("q_9","3");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -215,6 +218,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_9","कम");
+                    jsonObject.put("q_9","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -230,6 +234,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_9","बिल्कुल नहीं");
+                    jsonObject.put("q_9","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -247,6 +252,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView4.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_10","बहुत अधिक");
+                    jsonObject.put("q_10","5");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -262,6 +268,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView4.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_10","अधिक");
+                    jsonObject.put("q_10","4");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -277,6 +284,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView4.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_10","पता नहीं");
+                    jsonObject.put("q_10","3");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -292,6 +300,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView4.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_10","कम");
+                    jsonObject.put("q_10","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -307,6 +316,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView4.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_10","बिल्कुल नहीं");
+                    jsonObject.put("q_10","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -324,6 +334,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView5.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_11","बहुत अधिक");
+                    jsonObject.put("q_11","5");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -339,6 +350,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView5.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_11","अधिक");
+                    jsonObject.put("q_11","4");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -354,6 +366,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView5.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_11","पता नहीं");
+                    jsonObject.put("q_11","3");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -369,6 +382,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView5.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_11","कम");
+                    jsonObject.put("q_11","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -384,6 +398,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView5.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_11","बहुत कम");
+                    jsonObject.put("q_11","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -402,6 +417,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView6.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_12","बहुत अधिक");
+                    jsonObject.put("q_12","5");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -417,6 +433,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView6.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_12","अधिक");
+                    jsonObject.put("q_12","4");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -432,6 +449,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView6.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_12","पता नहीं");
+                    jsonObject.put("q_12","3");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -447,6 +465,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView6.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_12","कम");
+                    jsonObject.put("q_12","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -462,6 +481,7 @@ public class Servey7 extends AppCompatActivity {
                 vsadimageView6.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_12","बहुत कम");
+                    jsonObject.put("q_12","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

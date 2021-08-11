@@ -108,11 +108,11 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                         startActivity(intent);
                     }
                     else {
-                        Toast.makeText(Servey6.this,"Please check Q-8",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Servey6.this,"Please check Q-9",Toast.LENGTH_SHORT).show();
                     }
                 }
                 else {
-                    Toast.makeText(Servey6.this,"Please check Q-7",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Servey6.this,"Please check Q-8",Toast.LENGTH_SHORT).show();
                 }
 
 
@@ -129,6 +129,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_8","बहुत अधिक");
+                    jsonObject.put("q_8","5");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -145,6 +146,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_8","अधिक");
+                    jsonObject.put("q_8","4");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -161,6 +163,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_8","पता नहीं");
+                    jsonObject.put("q_8","3");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -177,6 +180,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_8","कम");
+                    jsonObject.put("q_8","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -193,6 +197,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_8","बिल्कुल नहीं");
+                    jsonObject.put("q_8","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -293,6 +298,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c710.setChecked(false);
 
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","1");
 
                 }
                 else {
@@ -312,6 +318,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c710.setChecked(false);
 
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","2");
 
                 }
                 else {
@@ -330,6 +337,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c79.setChecked(false);
                     c710.setChecked(false);
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","3");
 
                 }
                 else {
@@ -348,6 +356,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c79.setChecked(false);
                     c710.setChecked(false);
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","4");
 
                 }
                 else {
@@ -366,6 +375,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c79.setChecked(false);
                     c710.setChecked(false);
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","5");
 
                 }
                 else {
@@ -384,6 +394,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c79.setChecked(false);
                     c710.setChecked(false);
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","6");
 
                 }
                 else {
@@ -402,6 +413,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c79.setChecked(false);
                     c710.setChecked(false);
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","7");
 
                 }
                 else {
@@ -420,6 +432,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c79.setChecked(false);
                     c710.setChecked(false);
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","8");
 
                 }
                 else {
@@ -438,6 +451,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c71.setChecked(false);
                     c710.setChecked(false);
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","9");
 
                 }
                 else {
@@ -456,6 +470,7 @@ public class Servey6 extends AppCompatActivity implements CompoundButton.OnCheck
                     c79.setChecked(false);
                     c71.setChecked(false);
                     jsonObject.put("q_7",compoundButton.getText());
+                    jsonObject.put("q_7","0");
                 }
                 else {
                     jsonObject.remove("q_7");

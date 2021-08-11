@@ -121,7 +121,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                         }
                     }
                     else {
-                        Toast.makeText(Servey9.this,"Please check Q-19",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Servey9.this,"Please check Q-20",Toast.LENGTH_SHORT).show();
                     }
                 }
 
@@ -209,6 +209,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c44.setChecked(false);
                     c45.setChecked(false);
                     jsonObject.put("q_19",compoundButton.getText());
+                    jsonObject.put("q_19","1");
 
                 }
                 else {
@@ -222,6 +223,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c44.setChecked(false);
                     c45.setChecked(false);
                     jsonObject.put("q_19",compoundButton.getText());
+                    jsonObject.put("q_19","2");
 
                 }
                 else {
@@ -235,6 +237,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c44.setChecked(false);
                     c45.setChecked(false);
                     jsonObject.put("q_19",compoundButton.getText());
+                    jsonObject.put("q_19","3");
 
                 }
                 else {
@@ -248,6 +251,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c42.setChecked(false);
                     c45.setChecked(false);
                     jsonObject.put("q_19",compoundButton.getText());
+                    jsonObject.put("q_19","4");
 
                 }
                 else {
@@ -261,6 +265,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c44.setChecked(false);
                     c42.setChecked(false);
                     jsonObject.put("q_19",compoundButton.getText());
+                    jsonObject.put("q_19","0");
 
                 }
                 else {
@@ -276,6 +281,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c55.setChecked(false);
                     c56.setChecked(false);
                     jsonObject.put("c_8",compoundButton.getText());
+                    jsonObject.put("c_8","1");
                     cate = "general";
 
                 }
@@ -292,6 +298,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c55.setChecked(false);
                     c56.setChecked(false);
                     jsonObject.put("c_8",compoundButton.getText());
+                    jsonObject.put("c_8","2");
                     cate = "obc";
 
                 }
@@ -308,6 +315,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c55.setChecked(false);
                     c56.setChecked(false);
                     jsonObject.put("c_8",compoundButton.getText());
+                    jsonObject.put("c_8","3");
                     cate = "sc";
 
                 }
@@ -324,6 +332,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c55.setChecked(false);
                     c56.setChecked(false);
                     jsonObject.put("c_8",compoundButton.getText());
+                    jsonObject.put("c_8","61");
                     cate = "other";
 
 
@@ -341,6 +350,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c54.setChecked(false);
                     c56.setChecked(false);
                     jsonObject.put("c_8",compoundButton.getText());
+                    jsonObject.put("c_8","62");
                     cate = "other";
 
                 }
@@ -357,6 +367,7 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                     c55.setChecked(false);
                     c54.setChecked(false);
                     jsonObject.put("c_8",compoundButton.getText());
+                    jsonObject.put("c_8","0");
                     cate = "other";
 
                 }

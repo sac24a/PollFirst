@@ -23,7 +23,7 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="40dp"
                 android:background="@drawable/blackborder"
                 android:text="नया सैम्पल"
                 android:textSize="20dp"
@@ -35,7 +35,7 @@
                 />
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="40dp"
                 android:background="@drawable/blackborder"
                 android:text="अपलोड करें"
                 android:textSize="20dp"

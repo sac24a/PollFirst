@@ -27,7 +27,7 @@
                 android:text="सर्वे – 2021/10"
                 android:textColor="#000000"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 />
 
             <LinearLayout
@@ -42,10 +42,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-17: अन्य दलो के संभावित नामों में से आप किसको उम्मीदवार के रूप में देखना चाहते हैं?"
+                    android:text="Q-18: अन्य दलो के संभावित नामों में से आप किसको उम्मीदवार के रूप में देखना चाहते हैं?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
@@ -53,9 +53,9 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Babu Khan"
+                    android:text="Rajendra Dhamaka(Others)"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c71"/>
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:text="अन्य 2"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:visibility="gone"
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:text="अन्य 3"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:visibility="gone"
@@ -84,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:text="अन्य 4"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:visibility="gone"
@@ -94,7 +94,7 @@
                     android:layout_height="wrap_content"
                     android:text="अन्य 5"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:visibility="gone"
@@ -102,9 +102,9 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कोई और"
+                    android:text="Others/can't say"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c76"/>

@@ -244,7 +244,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
 
                             }
 
-                            Intent intent = new Intent(servey4.this,Servey5.class);
+                            Intent intent = new Intent(servey4.this,Servey18.class);
                             intent.putExtra("json",jsonObject.toString());
                             startActivity(intent);
 
@@ -273,6 +273,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_1","बहुत खुश");
+                    jsonObject.put("q_1","5");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -289,6 +290,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_1","खुश");
+                    jsonObject.put("q_1","4");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -305,6 +307,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_1","पता नहीं");
+                    jsonObject.put("q_1","3");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -321,6 +324,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_1","दुखी");
+                    jsonObject.put("q_1","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -337,6 +341,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
                 vsadimageView.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_1","बहुत दुखी");
+                    jsonObject.put("q_1","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -434,7 +439,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
                 if (compoundButton.isChecked() == true) {
 
                     jsonObject.put("q_2_1",compoundButton.getText());
-
+                    jsonObject.put("q_2_1","1");
                 }
                 else {
                     jsonObject.put("q_2_1","0");
@@ -443,7 +448,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c72) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_2",compoundButton.getText());
-
+                    jsonObject.put("q_2_2","1");
                 }
                 else {
                     jsonObject.put("q_2_2","0");
@@ -454,6 +459,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
 
 
                     jsonObject.put("q_2_3",compoundButton.getText());
+                    jsonObject.put("q_2_3","1");
 
                 }
                 else {
@@ -463,6 +469,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c74) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_4",compoundButton.getText());
+                    jsonObject.put("q_2_4","1");
                 }
                 else {
                     jsonObject.put("q_2_4","0");
@@ -471,6 +478,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c75) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_5",compoundButton.getText());
+                    jsonObject.put("q_2_5","1");
                 }
                 else {
                     jsonObject.put("q_2_5","0");
@@ -479,6 +487,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c76) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_6",compoundButton.getText());
+                    jsonObject.put("q_2_6","1");
                 }
                 else {
                     jsonObject.put("q_2_6","0");
@@ -487,6 +496,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c77) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_7",compoundButton.getText());
+                    jsonObject.put("q_2_7","1");
                 }
                 else {
                     jsonObject.put("q_2_7","0");
@@ -495,6 +505,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c78) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_8",compoundButton.getText());
+                    jsonObject.put("q_2_8","1");
                 }
                 else {
                     jsonObject.put("q_2_8","0");
@@ -503,6 +514,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c79) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_9",compoundButton.getText());
+                    jsonObject.put("q_2_9","1");
                 }
                 else {
                     jsonObject.put("q_2_9","0");
@@ -511,6 +523,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c710) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_10",compoundButton.getText());
+                    jsonObject.put("q_2_10","1");
                 }
                 else {
                     jsonObject.put("q_2_10","0");
@@ -519,6 +532,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c711) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_11",compoundButton.getText());
+                    jsonObject.put("q_2_11","1");
                 }
                 else {
                     jsonObject.put("q_2_11","0");
@@ -527,6 +541,7 @@ public class servey4 extends AppCompatActivity implements CompoundButton.OnCheck
             else if (compoundButton.getId() == R.id.c712) {
                 if (compoundButton.isChecked() == true) {
                     jsonObject.put("q_2_12",compoundButton.getText());
+                    jsonObject.put("q_2_12","1");
                 }
                 else {
                     jsonObject.put("q_2_12","0");

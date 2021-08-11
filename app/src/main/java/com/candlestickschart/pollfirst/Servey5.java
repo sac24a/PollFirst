@@ -114,6 +114,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_3","बहुत खुश");
+                    jsonObject.put("q_3","5");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -129,6 +130,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_3","खुश");
+                    jsonObject.put("q_3","4");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -144,6 +146,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_3","पता नहीं");
+                    jsonObject.put("q_3","3");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -159,6 +162,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_3","दुखी");
+                    jsonObject.put("q_3","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -174,6 +178,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_3","बहुत दुखी");
+                    jsonObject.put("q_3","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -189,6 +194,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView4.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_4","हाँ");
+                    jsonObject.put("q_4","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -202,6 +208,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView4.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_4","पता नहीं");
+                    jsonObject.put("q_4","0");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -215,6 +222,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView4.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_4","नहीं");
+                    jsonObject.put("q_4","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -232,6 +240,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView5.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_5","बहुत खुश");
+                    jsonObject.put("q_5","5");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -247,6 +256,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView5.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_5","खुश");
+                    jsonObject.put("q_5","4");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -262,6 +272,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView5.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_5","पता नहीं");
+                    jsonObject.put("q_5","3");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -276,7 +287,7 @@ public class Servey5 extends AppCompatActivity {
                 sadimageView5.setVisibility(View.VISIBLE);
                 vsadimageView5.setVisibility(View.GONE);
                 try {
-                    jsonObject.put("q_5","दुखी");
+                    jsonObject.put("q_5","दुखी");jsonObject.put("q_5","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -292,6 +303,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView5.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_5","बहुत दुखी");
+                    jsonObject.put("q_5","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -308,6 +320,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView6.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_6","हाँ");
+                    jsonObject.put("q_6","1");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -321,6 +334,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView6.setVisibility(View.GONE);
                 try {
                     jsonObject.put("q_6","पता नहीं");
+                    jsonObject.put("q_6","0");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -334,6 +348,7 @@ public class Servey5 extends AppCompatActivity {
                 vsadimageView6.setVisibility(View.VISIBLE);
                 try {
                     jsonObject.put("q_6","नहीं");
+                    jsonObject.put("q_6","2");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -360,17 +375,17 @@ public class Servey5 extends AppCompatActivity {
                                 intent.putExtra("json", jsonObject.toString());
                                 startActivity(intent);
                             } else {
-                                Toast.makeText(Servey5.this, "Please check Q-6", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Servey5.this, "Please check Q-7", Toast.LENGTH_SHORT).show();
                             }
                         } else {
-                            Toast.makeText(Servey5.this, "Please check Q-5", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Servey5.this, "Please check Q-6", Toast.LENGTH_SHORT).show();
                         }
                     } else {
-                        Toast.makeText(Servey5.this, "Please check Q-4", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Servey5.this, "Please check Q-5", Toast.LENGTH_SHORT).show();
                     }
                 }
                 else {
-                    Toast.makeText(Servey5.this,"Please check Q-3",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Servey5.this,"Please check Q-4",Toast.LENGTH_SHORT).show();
                 }
 
             }

@@ -27,7 +27,8 @@
                 android:text="सर्वे – 2021/10"
                 android:textColor="#000000"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="14sp"
+                
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -41,7 +42,7 @@
                     android:text="C-1: उम्र"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
                     />
                 <CheckBox
@@ -49,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:text="18 से 23"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/age1"/>
@@ -57,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="24 से 35"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -66,7 +67,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="36 से 45"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -75,7 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="46 से 60"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -84,7 +85,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="60 से अधिक"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -103,7 +104,7 @@
                     android:text="C-2: लिंग"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
 
                     />
@@ -111,7 +112,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="महिला"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -120,7 +121,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="पुरुष"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -129,7 +130,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="अन्य"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -149,7 +150,7 @@
                     android:text="C-3: स्थान"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
                     />
                 <CheckBox
@@ -157,7 +158,7 @@
                     android:layout_height="wrap_content"
                     android:text="गांव"
                     android:layoutDirection="rtl"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/village"/>
@@ -165,7 +166,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="कस्बा"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -174,7 +175,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="शहर"
-                    android:textSize="18dp"
+                    android:textSize="14sp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -186,8 +187,8 @@
     </ScrollView>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:background="@drawable/forward"
@@ -196,8 +197,8 @@
         android:layout_marginRight="20dp"
         />
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:rotation="180"
         android:background="@drawable/forward"
