@@ -207,7 +207,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -247,7 +247,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -287,7 +287,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -327,7 +327,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -367,7 +367,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -407,7 +407,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -448,7 +448,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -488,7 +488,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -528,7 +528,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c730.setChecked(false);
                     c731.setChecked(false);
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -569,7 +569,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -610,7 +610,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
                     c731.setChecked(false);
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -651,7 +651,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -692,7 +692,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -733,7 +733,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -774,7 +774,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -815,7 +815,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -856,7 +856,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -897,7 +897,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -938,7 +938,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -979,7 +979,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -1020,7 +1020,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -1061,7 +1061,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -1102,7 +1102,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -1143,7 +1143,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -1184,7 +1184,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -1225,7 +1225,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -1266,7 +1266,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -1307,7 +1307,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
@@ -1348,7 +1348,7 @@ public class Servey17 extends AppCompatActivity implements CompoundButton.OnChec
 
 
                     jsonObject.put("q_18",compoundButton.getText());
-                    jsonObject.put("q_18","0");
+//                    jsonObject.put("q_18","0");
 
                 }
                 else {
