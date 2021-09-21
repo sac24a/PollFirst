@@ -27,7 +27,7 @@
                 android:text="सर्वे – 2021/10"
                 android:textColor="#000000"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -38,10 +38,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-19 आप आने वाले चुनाव में किस आधार पर अपने वोट का फैसला लेंगें?"
+                    android:text="Q-20 आप आने वाले चुनाव में किस आधार पर अपने वोट का फैसला लेंगें?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
@@ -53,7 +53,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c41"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -62,7 +62,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c42"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -71,7 +71,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c43"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -80,7 +80,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c44"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c45"/>
 
             </LinearLayout>
@@ -106,7 +106,7 @@
                     android:text="C-8 सामाजिक वर्ग"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
 
                     />
@@ -117,7 +117,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c51"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -126,13 +126,13 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c52"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="अनुसूचित जाति"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -141,7 +141,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="अगड़े मुस्लिम"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -150,7 +150,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="पिछड़े मुस्लिम"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -159,7 +159,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="अन्य"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"

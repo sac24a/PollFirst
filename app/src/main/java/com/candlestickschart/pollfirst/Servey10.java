@@ -24,7 +24,6 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
     CheckBox c46;
 
     CheckBox c51;
-    CheckBox c52;
     CheckBox c53;
     
 
@@ -45,16 +44,22 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
     CheckBox c715;
     CheckBox c716;
     CheckBox c717;
-
+    CheckBox c718;
+    CheckBox c719;
+    CheckBox c720;
+    CheckBox c721;
+    CheckBox c722;
+    CheckBox c723;
+    CheckBox c724;
     CheckBox c81;
     CheckBox c82;
     CheckBox c83;
     CheckBox c84;
     CheckBox c85;
-    CheckBox c86;
+
     CheckBox c87;
     CheckBox c88;
-    CheckBox c89;
+
     CheckBox c810;
     CheckBox c811;
 
@@ -115,7 +120,6 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
         c46 = findViewById(R.id.c46);
 
         c51 = findViewById(R.id.c51);
-        c52 = findViewById(R.id.c52);
         c53 = findViewById(R.id.c53);
         
 
@@ -138,17 +142,24 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
         c715 = findViewById(R.id.c715);
         c716 = findViewById(R.id.c716);
         c717 = findViewById(R.id.c717);
+        c718 = findViewById(R.id.c718);
+        c719 = findViewById(R.id.c719);
+        c720 = findViewById(R.id.c720);
+        c721 = findViewById(R.id.c721);
+        c722 = findViewById(R.id.c722);
+        c723 = findViewById(R.id.c723);
+        c724 = findViewById(R.id.c724);
 
         c81 = findViewById(R.id.c81);
         c82 = findViewById(R.id.c82);
         c83 = findViewById(R.id.c83);
         c84 = findViewById(R.id.c84);
         c85 = findViewById(R.id.c85);
-        c86 = findViewById(R.id.c86);
+
 
         c87 = findViewById(R.id.c87);
         c88 = findViewById(R.id.c88);
-        c89 = findViewById(R.id.c89);
+
         c810 = findViewById(R.id.c810);
         c811 = findViewById(R.id.c811);
 
@@ -160,7 +171,6 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
         c46.setOnCheckedChangeListener(this);
 
         c51.setOnCheckedChangeListener(this);
-        c52.setOnCheckedChangeListener(this);
         c53.setOnCheckedChangeListener(this);
 
 
@@ -185,16 +195,25 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
         c716.setOnCheckedChangeListener(this);
         c717.setOnCheckedChangeListener(this);
 
+        c718.setOnCheckedChangeListener(this);
+        c719.setOnCheckedChangeListener(this);
+
+        c720.setOnCheckedChangeListener(this);
+        c721.setOnCheckedChangeListener(this);
+        c722.setOnCheckedChangeListener(this);
+        c723.setOnCheckedChangeListener(this);
+        c724.setOnCheckedChangeListener(this);
+
         c81.setOnCheckedChangeListener(this);
         c82.setOnCheckedChangeListener(this);
         c83.setOnCheckedChangeListener(this);
         c84.setOnCheckedChangeListener(this);
         c85.setOnCheckedChangeListener(this);
-        c86.setOnCheckedChangeListener(this);
+
 
         c87.setOnCheckedChangeListener(this);
         c88.setOnCheckedChangeListener(this);
-        c89.setOnCheckedChangeListener(this);
+
         c810.setOnCheckedChangeListener(this);
 
         c811.setOnCheckedChangeListener(this);
@@ -264,7 +283,7 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                             case "तेली":
                                 c711.setChecked(true);
                                 break;
-                            case "मल्लाह":
+                            case "मल्लाह/ बींद":
                                 c712.setChecked(true);
                                 break;
                             case "सुनार":
@@ -276,11 +295,32 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                             case "भर/ राजभर":
                                 c715.setChecked(true);
                                 break;
-                            case "बींद":
+                            case "नाई-सेन":
                                 c716.setChecked(true);
                                 break;
-                            case "अन्य ओबीसी":
+                            case "चौहान-लोनिया":
                                 c717.setChecked(true);
+                                break;
+                            case "बढ़ई-विश्वकर्माा":
+                                c718.setChecked(true);
+                                break;
+                            case "बघेल":
+                                c719.setChecked(true);
+                                break;
+                            case "लोहार":
+                                c720.setChecked(true);
+                                break;
+                            case "चौरसिया":
+                                c721.setChecked(true);
+                                break;
+                            case "गोसाईं":
+                                c722.setChecked(true);
+                                break;
+                            case "कहार":
+                                c723.setChecked(true);
+                                break;
+                            case "अन्य OBC":
+                                c724.setChecked(true);
                                 break;
 
                             case "ब्राह्मण":
@@ -305,9 +345,7 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                             case "सिख":
                                 c51.setChecked(true);
                                 break;
-                            case "ईसाई":
-                                c52.setChecked(true);
-                                break;
+
                             case "अन्य":
                                 c53.setChecked(true);
                                 break;
@@ -327,18 +365,13 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                             case "वाल्मिकी":
                                 c85.setChecked(true);
                                 break;
-                            case "नट":
-                                c86.setChecked(true);
-                                break;
                             case "खटिक":
                                 c87.setChecked(true);
                                 break;
                             case "गोंड":
                                 c88.setChecked(true);
                                 break;
-                            case "धानुक":
-                                c89.setChecked(true);
-                                break;
+
                             case "डोम":
                                 c810.setChecked(true);
                                 break;
@@ -372,6 +405,7 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c45.setChecked(false);
                     c46.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","1");
 
                 }
                 else {
@@ -386,6 +420,7 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c45.setChecked(false);
                     c46.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","2");
 
                 }
                 else {
@@ -400,6 +435,7 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c45.setChecked(false);
                     c46.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","3");
 
                 }
                 else {
@@ -414,6 +450,7 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c45.setChecked(false);
                     c46.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","4");
 
                 }
                 else {
@@ -428,6 +465,7 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c42.setChecked(false);
                     c46.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","5");
 
                 }
                 else {
@@ -442,6 +480,7 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c45.setChecked(false);
                     c42.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","6");
 
                 }
                 else {
@@ -466,7 +505,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","11");
 
                 }
                 else {
@@ -491,7 +538,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","12");
 
                 }
                 else {
@@ -516,7 +571,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","13");
 
                 }
                 else {
@@ -541,7 +604,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","14");
 
                 }
                 else {
@@ -566,7 +637,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","15");
 
                 }
                 else {
@@ -591,7 +670,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","16");
 
                 }
                 else {
@@ -616,7 +703,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","17");
 
                 }
                 else {
@@ -641,7 +736,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","18");
 
                 }
                 else {
@@ -666,7 +769,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","19");
 
                 }
                 else {
@@ -691,7 +802,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","20");
 
                 }
                 else {
@@ -716,7 +835,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","21");
 
                 }
                 else {
@@ -741,7 +868,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","22");
 
                 }
                 else {
@@ -766,7 +901,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","23");
 
                 }
                 else {
@@ -791,7 +934,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c715.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","24");
 
                 }
                 else {
@@ -816,7 +967,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c71.setChecked(false);
                     c716.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","25");
 
                 }
                 else {
@@ -841,7 +1000,15 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c71.setChecked(false);
                     c715.setChecked(false);
                     c717.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","26");
 
                 }
                 else {
@@ -866,7 +1033,242 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c71.setChecked(false);
                     c716.setChecked(false);
                     c715.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","27");
+
+                }
+                else {
+                    jsonObject.remove("category");
+                }
+            }
+            else if (compoundButton.getId() == R.id.c718) {
+                if (compoundButton.isChecked()) {
+                    c72.setChecked(false);
+                    c73.setChecked(false);
+                    c74.setChecked(false);
+                    c75.setChecked(false);
+                    c76.setChecked(false);
+                    c77.setChecked(false);
+                    c78.setChecked(false);
+                    c79.setChecked(false);
+                    c710.setChecked(false);
+                    c711.setChecked(false);
+                    c712.setChecked(false);
+                    c713.setChecked(false);
+                    c714.setChecked(false);
+                    c71.setChecked(false);
+                    c716.setChecked(false);
+                    c715.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
+                    jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","28");
+
+                }
+                else {
+                    jsonObject.remove("category");
+                }
+            }
+            else if (compoundButton.getId() == R.id.c719) {
+                if (compoundButton.isChecked()) {
+                    c72.setChecked(false);
+                    c73.setChecked(false);
+                    c74.setChecked(false);
+                    c75.setChecked(false);
+                    c76.setChecked(false);
+                    c77.setChecked(false);
+                    c78.setChecked(false);
+                    c79.setChecked(false);
+                    c710.setChecked(false);
+                    c711.setChecked(false);
+                    c712.setChecked(false);
+                    c713.setChecked(false);
+                    c714.setChecked(false);
+                    c71.setChecked(false);
+                    c716.setChecked(false);
+                    c715.setChecked(false);
+                    c718.setChecked(false);
+
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
+                    jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","29");
+
+                }
+                else {
+                    jsonObject.remove("category");
+                }
+            }
+            else if (compoundButton.getId() == R.id.c720) {
+                if (compoundButton.isChecked()) {
+                    c72.setChecked(false);
+                    c73.setChecked(false);
+                    c74.setChecked(false);
+                    c75.setChecked(false);
+                    c76.setChecked(false);
+                    c77.setChecked(false);
+                    c78.setChecked(false);
+                    c79.setChecked(false);
+                    c710.setChecked(false);
+                    c711.setChecked(false);
+                    c712.setChecked(false);
+                    c713.setChecked(false);
+                    c714.setChecked(false);
+                    c71.setChecked(false);
+                    c716.setChecked(false);
+                    c715.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
+                    jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","30");
+
+                }
+                else {
+                    jsonObject.remove("category");
+                }
+            }
+            else if (compoundButton.getId() == R.id.c721) {
+                if (compoundButton.isChecked()) {
+                    c72.setChecked(false);
+                    c73.setChecked(false);
+                    c74.setChecked(false);
+                    c75.setChecked(false);
+                    c76.setChecked(false);
+                    c77.setChecked(false);
+                    c78.setChecked(false);
+                    c79.setChecked(false);
+                    c710.setChecked(false);
+                    c711.setChecked(false);
+                    c712.setChecked(false);
+                    c713.setChecked(false);
+                    c714.setChecked(false);
+                    c71.setChecked(false);
+                    c716.setChecked(false);
+                    c715.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
+                    jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","31");
+
+                }
+                else {
+                    jsonObject.remove("category");
+                }
+            }
+            else if (compoundButton.getId() == R.id.c722) {
+                if (compoundButton.isChecked()) {
+                    c72.setChecked(false);
+                    c73.setChecked(false);
+                    c74.setChecked(false);
+                    c75.setChecked(false);
+                    c76.setChecked(false);
+                    c77.setChecked(false);
+                    c78.setChecked(false);
+                    c79.setChecked(false);
+                    c710.setChecked(false);
+                    c711.setChecked(false);
+                    c712.setChecked(false);
+                    c713.setChecked(false);
+                    c714.setChecked(false);
+                    c71.setChecked(false);
+                    c716.setChecked(false);
+                    c715.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c723.setChecked(false);
+                    c724.setChecked(false);
+                    jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","32");
+
+                }
+                else {
+                    jsonObject.remove("category");
+                }
+            }
+            else if (compoundButton.getId() == R.id.c723) {
+                if (compoundButton.isChecked()) {
+                    c72.setChecked(false);
+                    c73.setChecked(false);
+                    c74.setChecked(false);
+                    c75.setChecked(false);
+                    c76.setChecked(false);
+                    c77.setChecked(false);
+                    c78.setChecked(false);
+                    c79.setChecked(false);
+                    c710.setChecked(false);
+                    c711.setChecked(false);
+                    c712.setChecked(false);
+                    c713.setChecked(false);
+                    c714.setChecked(false);
+                    c71.setChecked(false);
+                    c716.setChecked(false);
+                    c715.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c724.setChecked(false);
+                    jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","33");
+
+                }
+                else {
+                    jsonObject.remove("category");
+                }
+            }
+            else if (compoundButton.getId() == R.id.c724) {
+                if (compoundButton.isChecked()) {
+                    c72.setChecked(false);
+                    c73.setChecked(false);
+                    c74.setChecked(false);
+                    c75.setChecked(false);
+                    c76.setChecked(false);
+                    c77.setChecked(false);
+                    c78.setChecked(false);
+                    c79.setChecked(false);
+                    c710.setChecked(false);
+                    c711.setChecked(false);
+                    c712.setChecked(false);
+                    c713.setChecked(false);
+                    c714.setChecked(false);
+                    c71.setChecked(false);
+                    c716.setChecked(false);
+                    c715.setChecked(false);
+                    c718.setChecked(false);
+                    c719.setChecked(false);
+                    c720.setChecked(false);
+                    c721.setChecked(false);
+                    c722.setChecked(false);
+                    c723.setChecked(false);
+                    jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","34");
 
                 }
                 else {
@@ -875,9 +1277,10 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
             }
             else if (compoundButton.getId() == R.id.c51) {
                 if (compoundButton.isChecked()) {
-                    c52.setChecked(false);
+
                     c53.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","63");
 
                 }
                 else {
@@ -897,7 +1300,7 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
             }
             else if (compoundButton.getId() == R.id.c53) {
                 if (compoundButton.isChecked()) {
-                    c52.setChecked(false);
+
                     c51.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
 
@@ -913,13 +1316,12 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c83.setChecked(false);
                     c84.setChecked(false);
                     c85.setChecked(false);
-                    c86.setChecked(false);
                     c87.setChecked(false);
                     c88.setChecked(false);
-                    c89.setChecked(false);
                     c810.setChecked(false);
                     c811.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","41");
 
                 }
                 else {
@@ -932,13 +1334,14 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c83.setChecked(false);
                     c84.setChecked(false);
                     c85.setChecked(false);
-                    c86.setChecked(false);
+
                     c87.setChecked(false);
                     c88.setChecked(false);
-                    c89.setChecked(false);
+
                     c810.setChecked(false);
                     c811.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","42");
 
                 }
                 else {
@@ -951,13 +1354,14 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c81.setChecked(false);
                     c84.setChecked(false);
                     c85.setChecked(false);
-                    c86.setChecked(false);
+
                     c87.setChecked(false);
                     c88.setChecked(false);
-                    c89.setChecked(false);
+
                     c810.setChecked(false);
                     c811.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","43");
 
                 }
                 else {
@@ -970,13 +1374,14 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c83.setChecked(false);
                     c81.setChecked(false);
                     c85.setChecked(false);
-                    c86.setChecked(false);
+
                     c87.setChecked(false);
                     c88.setChecked(false);
-                    c89.setChecked(false);
+
                     c810.setChecked(false);
                     c811.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","44");
 
                 }
                 else {
@@ -989,51 +1394,33 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c83.setChecked(false);
                     c84.setChecked(false);
                     c81.setChecked(false);
-                    c86.setChecked(false);
+
                     c87.setChecked(false);
                     c88.setChecked(false);
-                    c89.setChecked(false);
+
                     c810.setChecked(false);
                     c811.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","45");
 
                 }
                 else {
                     jsonObject.remove("category");
                 }
             }
-            else if (compoundButton.getId() == R.id.c86) {
-                if (compoundButton.isChecked()) {
-                    c82.setChecked(false);
-                    c83.setChecked(false);
-                    c84.setChecked(false);
-                    c85.setChecked(false);
-                    c81.setChecked(false);
-                    c87.setChecked(false);
-                    c88.setChecked(false);
-                    c89.setChecked(false);
-                    c810.setChecked(false);
-                    c811.setChecked(false);
-                    jsonObject.put("category",compoundButton.getText());
 
-                }
-                else {
-                    jsonObject.remove("category");
-                }
-            }
             else if (compoundButton.getId() == R.id.c87) {
                 if (compoundButton.isChecked()) {
                     c82.setChecked(false);
                     c83.setChecked(false);
                     c84.setChecked(false);
                     c85.setChecked(false);
-                    c86.setChecked(false);
                     c81.setChecked(false);
                     c88.setChecked(false);
-                    c89.setChecked(false);
                     c810.setChecked(false);
                     c811.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","45");
 
                 }
                 else {
@@ -1046,52 +1433,34 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c83.setChecked(false);
                     c84.setChecked(false);
                     c85.setChecked(false);
-                    c86.setChecked(false);
+
                     c87.setChecked(false);
                     c81.setChecked(false);
-                    c89.setChecked(false);
+
                     c810.setChecked(false);
                     c811.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","46");
 
                 }
                 else {
                     jsonObject.remove("category");
                 }
             }
-            else if (compoundButton.getId() == R.id.c89) {
-                if (compoundButton.isChecked()) {
-                    c82.setChecked(false);
-                    c83.setChecked(false);
-                    c84.setChecked(false);
-                    c85.setChecked(false);
-                    c86.setChecked(false);
-                    c87.setChecked(false);
-                    c88.setChecked(false);
-                    c81.setChecked(false);
-                    c810.setChecked(false);
-                    c811.setChecked(false);
-                    jsonObject.put("category",compoundButton.getText());
-
-                }
-                else {
-                    jsonObject.remove("category");
-                }
-            }
-
             else if (compoundButton.getId() == R.id.c810) {
                 if (compoundButton.isChecked()) {
                     c82.setChecked(false);
                     c83.setChecked(false);
                     c84.setChecked(false);
                     c85.setChecked(false);
-                    c86.setChecked(false);
+
                     c87.setChecked(false);
                     c88.setChecked(false);
-                    c89.setChecked(false);
+
                     c81.setChecked(false);
                     c811.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","48");
 
                 }
                 else {
@@ -1104,13 +1473,14 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                     c83.setChecked(false);
                     c84.setChecked(false);
                     c85.setChecked(false);
-                    c86.setChecked(false);
+
                     c87.setChecked(false);
                     c88.setChecked(false);
-                    c89.setChecked(false);
+
                     c810.setChecked(false);
                     c81.setChecked(false);
                     jsonObject.put("category",compoundButton.getText());
+                    jsonObject.put("category","50");
 
                 }
                 else {

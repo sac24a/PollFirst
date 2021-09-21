@@ -29,7 +29,7 @@
                 android:text="सर्वे – 2021/10"
                 android:textColor="#000000"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -41,10 +41,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-9 आप समाजवादी पार्टी को कितना पसंद करते हैं?"
+                    android:text="Q-10 आप समाजवादी पार्टी को कितना पसंद करते हैं?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
                 <LinearLayout
@@ -218,10 +218,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-10 आप बहुजन समाज पार्टी को कितना पसंद करते हैं?"
+                    android:text="Q-11 आप बहुजन समाज पार्टी को कितना पसंद करते हैं?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
                 <LinearLayout
@@ -391,10 +391,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-11 आप कांग्रेस पार्टी को कितना पसंद करते हैं?"
+                    android:text="Q-12 आप कांग्रेस पार्टी को कितना पसंद करते हैं?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
                 <LinearLayout
@@ -568,10 +568,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Q-12 आप राष्ट्रीय लोक दल को कितना पसंद करते हैं?"
+                    android:text="Q-13 आप राष्ट्रीय लोक दल को कितना पसंद करते हैं?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
                 <LinearLayout

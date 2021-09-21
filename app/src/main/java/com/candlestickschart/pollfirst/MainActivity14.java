@@ -102,7 +102,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
 
                     }
                     else {
-                        Toast.makeText(MainActivity14.this,"Please check Q-13",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity14.this,"Please check Q-15",Toast.LENGTH_SHORT).show();
                     }
                 }
                 else {
@@ -129,6 +129,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c76.setChecked(false);
 
                     jsonObject.put("q_13",compoundButton.getText());
+//                    jsonObject.put("q_13","0");
 
                 }
                 else {
@@ -144,6 +145,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c76.setChecked(false);
 
                     jsonObject.put("q_13",compoundButton.getText());
+//                    jsonObject.put("q_13","0");
 
                 }
                 else {
@@ -159,6 +161,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c76.setChecked(false);
 
                     jsonObject.put("q_13",compoundButton.getText());
+//                    jsonObject.put("q_13","0");
 
                 }
                 else {
@@ -174,6 +177,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c76.setChecked(false);
 
                     jsonObject.put("q_13",compoundButton.getText());
+//                    jsonObject.put("q_13","0");
 
                 }
                 else {
@@ -188,7 +192,8 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c71.setChecked(false);
                     c76.setChecked(false);
 
-                    jsonObject.put("q_13",compoundButton.getText());
+//                    jsonObject.put("q_13",compoundButton.getText());
+                    jsonObject.put("q_13","0");
 
                 }
                 else {
@@ -204,6 +209,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c71.setChecked(false);
 
                     jsonObject.put("q_13",compoundButton.getText());
+//                    jsonObject.put("q_13","0");
 
                 }
                 else {
@@ -220,6 +226,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c713.setChecked(false);
 
                     jsonObject.put("q_14",compoundButton.getText());
+//                    jsonObject.put("q_14","0");
 
                 }
                 else {
@@ -236,6 +243,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c713.setChecked(false);
 
                     jsonObject.put("q_14",compoundButton.getText());
+//                    jsonObject.put("q_14","0");
 
                 }
                 else {
@@ -252,6 +260,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c713.setChecked(false);
 
                     jsonObject.put("q_14",compoundButton.getText());
+//                    jsonObject.put("q_14","0");
 
                 }
                 else {
@@ -269,6 +278,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c713.setChecked(false);
 
                     jsonObject.put("q_14",compoundButton.getText());
+//                    jsonObject.put("q_14","0");
 
                 }
                 else {
@@ -286,6 +296,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c713.setChecked(false);
 
                     jsonObject.put("q_14",compoundButton.getText());
+//                    jsonObject.put("q_14","0");
 
                 }
                 else {
@@ -302,7 +313,8 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                     c712.setChecked(false);
 
 
-                    jsonObject.put("q_14",compoundButton.getText());
+//                    jsonObject.put("q_14",compoundButton.getText());
+                    jsonObject.put("q_14","0");
 
                 }
                 else {

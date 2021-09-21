@@ -22,11 +22,11 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="@drawable/blackborder"
                 android:hint="नाम"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 android:id="@+id/name"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
@@ -35,11 +35,11 @@
                 />
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="@drawable/blackborder"
                 android:hint="मोबाईल नंबर"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 android:id="@+id/mobileNumber"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
@@ -52,10 +52,10 @@
                 android:layout_height="wrap_content">
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="40dp"
                     android:background="@drawable/blackborder"
                     android:text="स्थान- लोकेशन"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:id="@+id/location"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
@@ -73,10 +73,10 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="40dp"
                 android:background="@drawable/blackborder"
                 android:text="व्यक्ति या घर की फोटो"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 android:id="@+id/photo"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
@@ -91,10 +91,10 @@
                 />
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="40dp"
                 android:background="@drawable/newsample"
                 android:text="सेव करें"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 android:textColor="#FFFFFF"
                 android:id="@+id/upload"
                 android:layout_marginLeft="30dp"

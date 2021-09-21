@@ -70,7 +70,7 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
 
                 }
                 else {
-                    Toast.makeText(Servey16.this,"Please check Q-17",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Servey16.this,"Please check Q-18",Toast.LENGTH_SHORT).show();
                 }
 
 
@@ -93,6 +93,7 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
                     c76.setChecked(false);
 
                     jsonObject.put("q_17",compoundButton.getText());
+//                    jsonObject.put("q_17","0");
 
                 }
                 else {
@@ -108,6 +109,7 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
                     c76.setChecked(false);
 
                     jsonObject.put("q_17",compoundButton.getText());
+//                    jsonObject.put("q_17","0");
 
                 }
                 else {
@@ -123,6 +125,7 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
                     c76.setChecked(false);
 
                     jsonObject.put("q_17",compoundButton.getText());
+//                    jsonObject.put("q_17","0");
 
                 }
                 else {
@@ -138,6 +141,7 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
                     c76.setChecked(false);
 
                     jsonObject.put("q_17",compoundButton.getText());
+//                    jsonObject.put("q_17","0");
 
                 }
                 else {
@@ -153,7 +157,7 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
                     c76.setChecked(false);
 
                     jsonObject.put("q_17",compoundButton.getText());
-
+//                    jsonObject.put("q_17","0");
                 }
                 else {
                     jsonObject.remove("q_17");
@@ -167,7 +171,8 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
                     c75.setChecked(false);
                     c71.setChecked(false);
 
-                    jsonObject.put("q_17",compoundButton.getText());
+//                    jsonObject.put("q_17",compoundButton.getText());
+                    jsonObject.put("q_17","0");
 
                 }
                 else {

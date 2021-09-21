@@ -99,6 +99,22 @@ public class PollFirstData {
     public String q_18;
     @ColumnInfo(name = "q_19")
     public String q_19;
+    @ColumnInfo(name = "q_20_1")
+    public String q_20_1;
+    @ColumnInfo(name = "q_20_2")
+    public String q_20_2;
+    @ColumnInfo(name = "q_20_3")
+    public String q_20_3;
+    @ColumnInfo(name = "q_20_4")
+    public String q_20_4;
+    @ColumnInfo(name = "q_20_5")
+    public String q_20_5;
+    @ColumnInfo(name = "q_20_6")
+    public String q_20_6;
+    @ColumnInfo(name = "q_20_7")
+    public String q_20_7;
+    @ColumnInfo(name = "q_20_8")
+    public String q_20_8;
     @ColumnInfo(name = "name")
     public String name;
     @ColumnInfo(name = "mobile_no")
@@ -108,7 +124,7 @@ public class PollFirstData {
     @ColumnInfo(name = "home_photo")
     public String home_photo;
 
-    public PollFirstData(int ids, String user_id,String user_mobile_no, String c_1,String c_2, String c_3, String c_4, String c_5, String c_6, String c_7, String c_8, String c_9, String c_10, String c_11, String c_12,String category, String q_1, String q_2_1, String q_2_2, String q_2_3, String q_2_4, String q_2_5, String q_2_6, String q_2_7, String q_2_8, String q_2_9, String q_2_10, String q_2_11,String q_2_12, String q_3, String q_4, String q_5, String q_6, String q_7, String q_8, String q_9, String q_10, String q_11, String q_12, String q_13, String q_14,String q_15,String q_16,String q_17,String q_18,String q_19, String name, String location, String mobile_no, String home_photo){
+    public PollFirstData(int ids, String user_id,String user_mobile_no, String c_1,String c_2, String c_3, String c_4, String c_5, String c_6, String c_7, String c_8, String c_9, String c_10, String c_11, String c_12,String category, String q_1, String q_2_1, String q_2_2, String q_2_3, String q_2_4, String q_2_5, String q_2_6, String q_2_7, String q_2_8, String q_2_9, String q_2_10, String q_2_11,String q_2_12, String q_3, String q_4, String q_5, String q_6, String q_7, String q_8, String q_9, String q_10, String q_11, String q_12, String q_13, String q_14,String q_15,String q_16,String q_17,String q_18,String q_19,String q_20_1,String q_20_2,String q_20_3,String q_20_4,String q_20_5,String q_20_6,String q_20_7,String q_20_8, String name, String location, String mobile_no, String home_photo){
         this.ids = ids;
         this.user_id = user_id;
         this.user_mobile_no = user_mobile_no;
@@ -155,6 +171,15 @@ public class PollFirstData {
         this.q_17 = q_17;
         this.q_18 = q_18;
         this.q_19 = q_19;
+        this.q_20_1 = q_20_1;
+        this.q_20_2 = q_20_2;
+        this.q_20_3 = q_20_3;
+        this.q_20_4 = q_20_4;
+        this.q_20_5 = q_20_5;
+        this.q_20_6 = q_20_6;
+        this.q_20_7 = q_20_7;
+        this.q_20_8 = q_20_8;
+
         this.name = name;
         this.mobile_no = mobile_no;
         this.location = location;
@@ -162,7 +187,7 @@ public class PollFirstData {
     }
 
     @Ignore
-    public PollFirstData(String user_id,String user_mobile_no, String c_1,String c_2, String c_3, String c_4, String c_5, String c_6, String c_7, String c_8, String c_9, String c_10, String c_11, String c_12,String category, String q_1, String q_2_1, String q_2_2, String q_2_3, String q_2_4, String q_2_5, String q_2_6, String q_2_7, String q_2_8, String q_2_9, String q_2_10, String q_2_11,String q_2_12, String q_3, String q_4, String q_5, String q_6, String q_7, String q_8, String q_9, String q_10, String q_11, String q_12, String q_13, String q_14,String q_15,String q_16,String q_17,String q_18,String q_19, String name, String location, String mobile_no, String home_photo){
+    public PollFirstData(String user_id,String user_mobile_no, String c_1,String c_2, String c_3, String c_4, String c_5, String c_6, String c_7, String c_8, String c_9, String c_10, String c_11, String c_12,String category, String q_1, String q_2_1, String q_2_2, String q_2_3, String q_2_4, String q_2_5, String q_2_6, String q_2_7, String q_2_8, String q_2_9, String q_2_10, String q_2_11,String q_2_12, String q_3, String q_4, String q_5, String q_6, String q_7, String q_8, String q_9, String q_10, String q_11, String q_12, String q_13, String q_14,String q_15,String q_16,String q_17,String q_18,String q_19,String q_20_1,String q_20_2,String q_20_3,String q_20_4,String q_20_5,String q_20_6,String q_20_7,String q_20_8, String name, String location, String mobile_no, String home_photo){
         this.user_id = user_id;
         this.user_mobile_no = user_mobile_no;
         this.c_1 = c_1;
@@ -208,6 +233,14 @@ public class PollFirstData {
         this.q_17 = q_17;
         this.q_18 = q_18;
         this.q_19 = q_19;
+        this.q_20_1 = q_20_1;
+        this.q_20_2 = q_20_2;
+        this.q_20_3 = q_20_3;
+        this.q_20_4 = q_20_4;
+        this.q_20_5 = q_20_5;
+        this.q_20_6 = q_20_6;
+        this.q_20_7 = q_20_7;
+        this.q_20_8 = q_20_8;
         this.name = name;
         this.mobile_no = mobile_no;
         this.location = location;

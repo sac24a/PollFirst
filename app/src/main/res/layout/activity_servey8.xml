@@ -28,7 +28,7 @@
                 android:text="सर्वे – 2021/10"
                 android:textColor="#000000"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -42,7 +42,7 @@
                     android:text="Q-13: आप किस स्थानीय नेता को क्षेत्र के अगले विधायक के रूप में देखना चाहते हैं?"
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="bold"
                     />
                 <CheckBox
@@ -52,7 +52,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c71"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -61,7 +61,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c72"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -70,7 +70,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c73"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -79,7 +79,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c74"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c75"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -97,7 +97,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c76"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -106,7 +106,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c77"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -115,7 +115,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c78"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -124,7 +124,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c79"/>
                 <CheckBox
                     android:layout_width="match_parent"
@@ -133,7 +133,7 @@
                     android:layoutDirection="rtl"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:id="@+id/c710"/>
 
             </LinearLayout>
