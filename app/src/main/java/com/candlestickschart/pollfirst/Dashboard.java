@@ -26,7 +26,7 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-public class Dashboard extends AppCompatActivity {
+public class  Dashboard extends AppCompatActivity {
 
     Button newSample;
     Button searchSample;

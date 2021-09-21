@@ -49,7 +49,7 @@
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="100dp"
                     android:orientation="horizontal"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
@@ -61,12 +61,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/verysad"
-                            android:layout_margin="10dp"
                             android:id="@+id/verysad3"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/verysad" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -74,6 +76,13 @@
                             android:visibility="gone"
                             android:id="@+id/verysadImage3"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="पूर्णत: नापसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -83,7 +92,7 @@
 
                         <Button
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="50dp"
                             android:background="@drawable/sad"
                             android:layout_margin="10dp"
                             android:id="@+id/sad3"
@@ -95,6 +104,13 @@
                             android:visibility="gone"
                             android:id="@+id/sadImage3"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="नापसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -103,12 +119,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/nutral"
-                            android:layout_margin="10dp"
                             android:id="@+id/nutral3"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/nutral" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -116,6 +134,13 @@
                             android:visibility="gone"
                             android:id="@+id/nutralImage3"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="ठीक-ठाक/ नहीं जानते"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -124,12 +149,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/happy"
-                            android:layout_margin="10dp"
                             android:id="@+id/happy3"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/happy" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -137,6 +164,13 @@
                             android:visibility="gone"
                             android:id="@+id/happyImage3"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="पसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -145,18 +179,27 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/veryhappy"
-                            android:layout_margin="10dp"
                             android:id="@+id/veryhappy3"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/veryhappy" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@drawable/blackborder"
                             android:visibility="gone"
                             android:id="@+id/veryhappyImage3"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="समर्थक"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
 
@@ -183,7 +226,7 @@
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="100dp"
                     android:orientation="horizontal"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
@@ -195,12 +238,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/verysad"
-                            android:layout_margin="10dp"
                             android:id="@+id/verysad4"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/verysad" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -208,7 +253,13 @@
                             android:visibility="gone"
                             android:id="@+id/verysadImage4"
                             />
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="पूर्णत: नापसंद"
+                            android:textColor="#000000" />
                     </RelativeLayout>
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -216,12 +267,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/sad"
-                            android:layout_margin="10dp"
                             android:id="@+id/sad4"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/sad" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -229,6 +282,13 @@
                             android:visibility="gone"
                             android:id="@+id/sadImage4"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="नापसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -237,12 +297,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/nutral"
-                            android:layout_margin="10dp"
                             android:id="@+id/nutral4"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/nutral" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -250,7 +312,13 @@
                             android:visibility="gone"
                             android:id="@+id/nutralImage4"
                             />
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="ठीक-ठाक/ नहीं जानते"
+                            android:textColor="#000000" />
                     </RelativeLayout>
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -258,12 +326,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/happy"
-                            android:layout_margin="10dp"
                             android:id="@+id/happy4"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/happy" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -271,6 +341,13 @@
                             android:visibility="gone"
                             android:id="@+id/happyImage4"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="पसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -279,19 +356,27 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/veryhappy"
-                            android:layout_margin="10dp"
                             android:id="@+id/veryhappy4"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/veryhappy" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@drawable/blackborder"
                             android:visibility="gone"
                             android:id="@+id/veryhappyImage4"/>
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="समर्थक"
+                            android:textColor="#000000" />
                     </RelativeLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -314,7 +399,7 @@
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="100dp"
                     android:orientation="horizontal"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
@@ -326,12 +411,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/verysad"
-                            android:layout_margin="10dp"
                             android:id="@+id/verysad5"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/verysad" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -339,6 +426,13 @@
                             android:visibility="gone"
                             android:id="@+id/verysadImage5"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="पूर्णत: नापसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -347,12 +441,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/sad"
-                            android:layout_margin="10dp"
                             android:id="@+id/sad5"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/sad" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -360,6 +456,13 @@
                             android:visibility="gone"
                             android:id="@+id/sadImage5"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="नापसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -368,12 +471,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/nutral"
-                            android:layout_margin="10dp"
                             android:id="@+id/nutral5"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/nutral" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -381,7 +486,13 @@
                             android:visibility="gone"
                             android:id="@+id/nutralImage5"
                             />
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="ठीक-ठाक/ नहीं जानते"
+                            android:textColor="#000000" />
                     </RelativeLayout>
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -389,12 +500,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/happy"
-                            android:layout_margin="10dp"
                             android:id="@+id/happy5"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/happy" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -402,6 +515,13 @@
                             android:visibility="gone"
                             android:id="@+id/happyImage5"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="पसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -410,19 +530,27 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/veryhappy"
-                            android:layout_margin="10dp"
                             android:id="@+id/veryhappy5"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/veryhappy" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@drawable/blackborder"
                             android:visibility="gone"
                             android:id="@+id/veryhappyImage5"/>
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="समर्थक"
+                            android:textColor="#000000" />
                     </RelativeLayout>
 
 
@@ -448,7 +576,7 @@
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="100dp"
                     android:orientation="horizontal"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
@@ -460,12 +588,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/verysad"
-                            android:layout_margin="10dp"
                             android:id="@+id/verysad6"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/verysad" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -473,6 +603,13 @@
                             android:visibility="gone"
                             android:id="@+id/verysadImage6"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="पूर्णत: नापसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -481,12 +618,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/sad"
-                            android:layout_margin="10dp"
                             android:id="@+id/sad6"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/sad" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -494,6 +633,13 @@
                             android:visibility="gone"
                             android:id="@+id/sadImage6"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="नापसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -502,12 +648,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/nutral"
-                            android:layout_margin="10dp"
                             android:id="@+id/nutral6"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/nutral" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -515,6 +663,13 @@
                             android:visibility="gone"
                             android:id="@+id/nutralImage6"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="ठीक-ठाक/ नहीं जानते"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -523,12 +678,14 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/happy"
-                            android:layout_margin="10dp"
                             android:id="@+id/happy6"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/happy" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -536,6 +693,13 @@
                             android:visibility="gone"
                             android:id="@+id/happyImage6"
                             />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="पसंद"
+                            android:textColor="#000000" />
 
                     </RelativeLayout>
                     <RelativeLayout
@@ -544,19 +708,27 @@
                         android:layout_weight="1">
 
                         <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/veryhappy"
-                            android:layout_margin="10dp"
                             android:id="@+id/veryhappy6"
-                            />
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/veryhappy" />
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@drawable/blackborder"
                             android:visibility="gone"
                             android:id="@+id/veryhappyImage6"/>
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:text="समर्थक"
+                            android:textColor="#000000" />
                     </RelativeLayout>
 
 

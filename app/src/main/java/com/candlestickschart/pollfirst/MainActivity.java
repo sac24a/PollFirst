@@ -79,8 +79,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void apicallToLogin(){
         try {
-            
-
             String url = "https://linier.in/UK/Rishikesh/API/MemberLoginRecord.php";
             Map<String, String> postParam= new HashMap<String, String>();
             postParam.put("user_mobile_no", mobileText.getText().toString());
