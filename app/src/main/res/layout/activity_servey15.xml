@@ -68,36 +68,39 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c72"/>
+
                 <CheckBox
+                    android:id="@+id/c73"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layoutDirection="rtl"
                     android:text="बसपा 3"
-                    android:layoutDirection="rtl"
                     android:textSize="14dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:visibility="gone"
-                    android:id="@+id/c73"/>
+                    android:visibility="visible" />
+
                 <CheckBox
+                    android:id="@+id/c74"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layoutDirection="rtl"
                     android:text="बसपा 4"
-                    android:layoutDirection="rtl"
                     android:textSize="14dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:visibility="gone"
-                    android:id="@+id/c74"/>
+                    android:visibility="visible" />
+
                 <CheckBox
+                    android:id="@+id/c75"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="बसपा 5"
-                    android:layoutDirection="rtl"
-                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:visibility="gone"
-                    android:id="@+id/c75"/>
+                    android:layoutDirection="rtl"
+                    android:text="बसपा 5"
+                    android:textSize="14dp"
+                    android:visibility="visible" />
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -157,26 +160,28 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:id="@+id/c710"/>
+
                 <CheckBox
+                    android:id="@+id/c711"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layoutDirection="rtl"
                     android:text="Pradeep Chand Chaudhary (Pravesh Chaudhary)"
-                    android:layoutDirection="rtl"
                     android:textSize="14dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:visibility="gone"
-                    android:id="@+id/c711"/>
+                    android:visibility="visible" />
+
                 <CheckBox
+                    android:id="@+id/c712"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Prashant Singh"
-                    android:layoutDirection="rtl"
-                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
-                    android:visibility="gone"
                     android:layout_marginRight="30dp"
-                    android:id="@+id/c712"/>
+                    android:layoutDirection="rtl"
+                    android:text="Prashant Singh"
+                    android:textSize="14dp"
+                    android:visibility="visible" />
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

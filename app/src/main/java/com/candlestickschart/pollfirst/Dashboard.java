@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -24,7 +25,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class  Dashboard extends AppCompatActivity {
 
@@ -36,6 +40,7 @@ public class  Dashboard extends AppCompatActivity {
     SharedPreferences.Editor editor;
     PollFirstDataBase mDBb;
     ProgressBar progressBar;
+    TextView insertedText;
 
 
     @Override
@@ -47,10 +52,11 @@ public class  Dashboard extends AppCompatActivity {
         searchSample = findViewById(R.id.searchSample);
         state = findViewById(R.id.state);
         vidhansabha = findViewById(R.id.vidhansabha);
+        insertedText = findViewById(R.id.insertedText);
         sharedPreferences = getSharedPreferences("login",MODE_PRIVATE);
         editor = sharedPreferences.edit();
         mDBb = PollFirstDataBase.getInstance(this);
-
+        insertedText.setText("Inserted Records: 0");
 
 
         newSample.setOnClickListener(new View.OnClickListener() {
@@ -60,6 +66,11 @@ public class  Dashboard extends AppCompatActivity {
                 editor.putString("record_id","0");
                 editor.commit();
                 Intent intent = new Intent(Dashboard.this,Servey1.class);
+                intent.putExtra("bjplist",bjpList);
+                intent.putExtra("bsplist",bspList);
+                intent.putExtra("splist",spList);
+                intent.putExtra("inclist",incList);
+                intent.putExtra("otherlist",otherList);
                 startActivity(intent);
             }
         });
@@ -86,6 +97,9 @@ public class  Dashboard extends AppCompatActivity {
         });
         newSample.setBackgroundResource(R.drawable.newsample);
         checkDataForUpload();
+        getInsertedData();
+        getCandidateList();
+
     }
 
     public void checkDataForUpload() {
@@ -267,5 +281,115 @@ public class  Dashboard extends AppCompatActivity {
             ) ;
             Mysingleton.getInstance(getApplicationContext()).addToRequestque(postRequest);
     }
+
+    public void getInsertedData(){
+        try {
+            String url = "https://linier.in/UK/Rishikesh/API/Researcher_TotalRecord.php";
+            Map<String, String> postParam= new HashMap<String, String>();
+            postParam.put("user_mobile_no", sharedPreferences.getString("mobile",""));
+            JSONObject jsonObject = new JSONObject(postParam);
+            Log.d("TAG", "apicallToLogin: "+ jsonObject);
+            JsonObjectRequest postRequest = new JsonObjectRequest(Request.Method.POST, url,new JSONObject(postParam),
+                    new Response.Listener<JSONObject>() {
+                        @Override
+                        public void onResponse(JSONObject response) {
+                            // response
+                            Log.e("Responselogin", response.toString());
+                            progressBar.setVisibility(View.GONE);
+                            try {
+
+                                JSONObject jsonObject = new JSONObject(response.toString());
+                                insertedText.setText("Inserted Records: "+jsonObject.getString("total_record"));
+                            }
+                            catch (JSONException e) {
+
+                            }
+                        }
+                    },
+                    new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            Log.d("Its inserted error === >", "onErrorResponse: "+error);
+                            progressBar.setVisibility(View.GONE);
+
+                        }
+                    }
+
+            ) ;
+            Mysingleton.getInstance(getApplicationContext()).addToRequestque(postRequest);
+
+
+
+        }
+        catch (NullPointerException e) {
+
+        }
+    }
+    ArrayList<String> bjpList = new ArrayList<>();
+    ArrayList<String> bspList = new ArrayList<>();
+    ArrayList<String> spList = new ArrayList<>();
+    ArrayList<String> incList = new ArrayList<>();
+    ArrayList<String> otherList = new ArrayList<>();
+    public void getCandidateList(){
+        try {
+            String url = "https://linier.in/UK/Rishikesh/API/Candidate_RecordList.php";
+            Map<String, String> postParam= new HashMap<String, String>();
+            postParam.put("AC_no", sharedPreferences.getString("AC_no",""));
+            JSONObject jsonObject = new JSONObject(postParam);
+            Log.d("TAG", "apicallToLogin: "+ jsonObject);
+            JsonObjectRequest postRequest = new JsonObjectRequest(Request.Method.POST, url,new JSONObject(postParam),
+                    new Response.Listener<JSONObject>() {
+                        @Override
+                        public void onResponse(JSONObject response) {
+                            // response
+                            Log.e("Responselogin", response.toString());
+                            progressBar.setVisibility(View.GONE);
+                            try {
+
+                                JSONObject jsonObject = new JSONObject(response.toString());
+                                JSONArray jsonArray = jsonObject.getJSONArray("qual_candidate_name");
+                                for (int i = 0; i<jsonArray.length();i++) {
+                                    if (jsonArray.getJSONObject(i).getString("Party_name").equals("BJP")) {
+                                        bjpList.add(jsonArray.getJSONObject(i).getString("name")+"("+jsonArray.getJSONObject(i).getString("Party_name")+")");
+                                    }
+                                    else if (jsonArray.getJSONObject(i).getString("Party_name").equals("BSP")) {
+                                        bspList.add(jsonArray.getJSONObject(i).getString("name")+"("+jsonArray.getJSONObject(i).getString("Party_name")+")");
+                                    }
+                                    else if (jsonArray.getJSONObject(i).getString("Party_name").equals("SP")) {
+                                        spList.add(jsonArray.getJSONObject(i).getString("name")+"("+jsonArray.getJSONObject(i).getString("Party_name")+")");
+                                    }
+                                    else if (jsonArray.getJSONObject(i).getString("Party_name").equals("INC")) {
+                                        incList.add(jsonArray.getJSONObject(i).getString("name")+"("+jsonArray.getJSONObject(i).getString("Party_name")+")");
+                                    }
+                                    else if (jsonArray.getJSONObject(i).getString("Party_name").equals("OTHER")) {
+                                        otherList.add(jsonArray.getJSONObject(i).getString("name")+"("+jsonArray.getJSONObject(i).getString("Party_name")+")");
+                                    }
+                                }
+                            }
+                            catch (JSONException e) {
+
+                            }
+                        }
+                    },
+                    new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            Log.d("Its inserted error === >", "onErrorResponse: "+error);
+                            progressBar.setVisibility(View.GONE);
+
+                        }
+                    }
+
+            ) ;
+            Mysingleton.getInstance(getApplicationContext()).addToRequestque(postRequest);
+
+
+
+        }
+        catch (NullPointerException e) {
+
+        }
+    }
+
 
 }

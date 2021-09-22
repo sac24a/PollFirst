@@ -98,16 +98,17 @@
                     android:layout_marginRight="30dp"
                     android:id="@+id/c75"
                     />
+
                 <CheckBox
+                    android:id="@+id/c76"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="कोई और"
-                    android:layoutDirection="rtl"
-                    android:textSize="14dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
-                    android:id="@+id/c76"
-                    android:visibility="gone"/>
+                    android:layoutDirection="rtl"
+                    android:text="Others/can't say"
+                    android:textSize="14dp"
+                    android:visibility="visible" />
 
 
             </LinearLayout>

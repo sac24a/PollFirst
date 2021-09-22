@@ -98,6 +98,11 @@ public class Servey11 extends AppCompatActivity implements CompoundButton.OnChec
 
                         Intent intent = new Intent(Servey11.this,Servey12.class);
                         intent.putExtra("json",jsonObject.toString());
+                        intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                        intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                        intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                        intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                        intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                         startActivity(intent);
 
                     }

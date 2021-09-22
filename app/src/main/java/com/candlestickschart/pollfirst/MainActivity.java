@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void apicallToLogin(){
         try {
-            String url = "https://linier.in/UK/Rishikesh/API/MemberLoginRecord.php";
+            String url = "https://linier.in/UK/Rishikesh/API/Member18VSLoginRecord.php";
             Map<String, String> postParam= new HashMap<String, String>();
             postParam.put("user_mobile_no", mobileText.getText().toString());
             JSONObject jsonObject = new JSONObject(postParam);
@@ -99,6 +99,14 @@ public class MainActivity extends AppCompatActivity {
                                     Intent intent = new Intent(MainActivity.this,Dashboard.class);
                                     editor.putString("user_id",jsonObject.getString("user_id"));
                                     editor.putString("user_mobile_no",jsonObject.getString("user_mobile_no"));
+                                    editor.putString("mobile",jsonObject.getString("user_mobile_no"));
+                                    editor.putString("District",jsonObject.getString("District"));
+                                    editor.putString("LS_name",jsonObject.getString("LS_name"));
+                                    editor.putString("AC_no",jsonObject.getString("AC_no"));
+                                    editor.putString("AC_Name",jsonObject.getString("AC_Name"));
+                                    editor.putString("QC_Mobile_No",jsonObject.getString("QC_Mobile_No"));
+                                    editor.putString("ZC_Mobile_No",jsonObject.getString("ZC_Mobile_No"));
+                                    editor.putString("TL_Mobile_No",jsonObject.getString("TL_Mobile_No"));
                                     editor.commit();
                                     startActivity(intent);
                                 }

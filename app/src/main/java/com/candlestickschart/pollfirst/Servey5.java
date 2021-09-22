@@ -373,6 +373,11 @@ public class Servey5 extends AppCompatActivity {
 
                                 Intent intent = new Intent(Servey5.this, Servey6.class);
                                 intent.putExtra("json", jsonObject.toString());
+                                intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                                intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                                intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                                intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                                intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                                 startActivity(intent);
                             } else {
                                 Toast.makeText(Servey5.this, "Please check Q-7", Toast.LENGTH_SHORT).show();

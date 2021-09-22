@@ -92,6 +92,11 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                                 if (jsonObject.get("c_8").equals("अगड़े मुस्लिम")) {
                                     jsonObject.put("category","अगड़े मुस्लिम");
                                     Intent intent = new Intent(Servey9.this,Servey11.class);
+                                    intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                                    intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                                    intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                                    intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                                    intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                                     intent.putExtra("json",jsonObject.toString());
                                     intent.putExtra("cat",cate);
 
@@ -100,6 +105,11 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                                 else if (jsonObject.get("c_8").equals("पिछड़े मुस्लिम")) {
                                     jsonObject.put("category","पिछड़े मुस्लिम");
                                     Intent intent = new Intent(Servey9.this,Servey11.class);
+                                    intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                                    intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                                    intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                                    intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                                    intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                                     intent.putExtra("json",jsonObject.toString());
 
                                     intent.putExtra("cat",cate);
@@ -109,6 +119,11 @@ public class Servey9 extends AppCompatActivity implements CompoundButton.OnCheck
                                     Intent intent = new Intent(Servey9.this,Servey10.class);
                                     intent.putExtra("json",jsonObject.toString());
                                     intent.putExtra("cat",cate);
+                                    intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                                    intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                                    intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                                    intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                                    intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                                     startActivity(intent);
                                 }
                             } catch (JSONException e) {

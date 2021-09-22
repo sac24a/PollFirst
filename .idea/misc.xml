@@ -8,20 +8,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
         <entry key="app/src/main/res/layout/activity_main14.xml" value="0.2803442028985507" />
         <entry key="app/src/main/res/layout/activity_search_by_mobile.xml" value="0.28940217391304346" />
         <entry key="app/src/main/res/layout/activity_servey1.xml" value="0.2848731884057971" />
+        <entry key="app/src/main/res/layout/activity_servey10.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/activity_servey11.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_servey12.xml" value="0.2848731884057971" />
+        <entry key="app/src/main/res/layout/activity_servey13.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/activity_servey15.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_servey16.xml" value="0.2803442028985507" />
         <entry key="app/src/main/res/layout/activity_servey17.xml" value="0.2803442028985507" />
+        <entry key="app/src/main/res/layout/activity_servey18.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/layout/activity_servey2.xml" value="0.2803442028985507" />
         <entry key="app/src/main/res/layout/activity_servey3.xml" value="0.2803442028985507" />
         <entry key="app/src/main/res/layout/activity_servey4.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_servey5.xml" value="0.2803442028985507" />
         <entry key="app/src/main/res/layout/activity_servey6.xml" value="0.2803442028985507" />
         <entry key="app/src/main/res/layout/activity_servey7.xml" value="0.2803442028985507" />
+        <entry key="app/src/main/res/layout/activity_servey8.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_servey9.xml" value="0.17291666666666666" />
       </map>
     </option>
   </component>

@@ -232,6 +232,11 @@ public class Servey10 extends AppCompatActivity implements CompoundButton.OnChec
                 if (jsonObject.has("category")) {
                     Intent intent = new Intent(Servey10.this,Servey11.class);
                     intent.putExtra("json",jsonObject.toString());
+                    intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                    intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                    intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                    intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                    intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                     startActivity(intent);
                 }
                 else {

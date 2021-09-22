@@ -97,6 +97,11 @@ public class Servey3 extends AppCompatActivity implements CompoundButton.OnCheck
                 if (jsonObject.has("c_7")) {
                     Intent intent = new Intent(Servey3.this,servey4.class);
                     intent.putExtra("json",jsonObject.toString());
+                    intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                    intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                    intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                    intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                    intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                     startActivity(intent);
 
                 }

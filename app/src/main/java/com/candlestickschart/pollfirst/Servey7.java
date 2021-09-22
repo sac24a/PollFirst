@@ -138,6 +138,11 @@ public class Servey7 extends AppCompatActivity {
                             if (jsonObject.has("q_12")) {
                                 Intent intent = new Intent(Servey7.this,MainActivity14.class);
                                 intent.putExtra("json",jsonObject.toString());
+                                intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                                intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                                intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                                intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                                intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                                 startActivity(intent);
                             }
                             else {

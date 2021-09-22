@@ -13,6 +13,8 @@ import android.widget.Toast;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+
 public class Servey16 extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener{
     CheckBox c71;
     CheckBox c72;
@@ -43,6 +45,71 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
         c74 = findViewById(R.id.c74);
         c75 = findViewById(R.id.c75);
         c76 = findViewById(R.id.c76);
+        try {
+            ArrayList<String> bjplist = getIntent().getStringArrayListExtra("otherlist");
+            for(int i = 0;i<bjplist.size();i++) {
+                if (i==0) {
+                    c71.setText(bjplist.get(i));
+                }
+                else if (i==1) {
+                    c72.setText(bjplist.get(i));
+                }
+                else if (i==2) {
+                    c73.setText(bjplist.get(i));
+                }
+                else if (i==3) {
+                    c74.setText(bjplist.get(i));
+                }
+                else if (i==4) {
+                    c75.setText(bjplist.get(i));
+                }
+                else if (i==5) {
+                    c76.setText(bjplist.get(i));
+                }
+            }
+            if (bjplist.size() == 0) {
+                c71.setVisibility(View.GONE);
+                c72.setVisibility(View.GONE);
+                c73.setVisibility(View.GONE);
+                c74.setVisibility(View.GONE);
+                c75.setVisibility(View.GONE);
+                c76.setVisibility(View.GONE);
+            }
+            else if (bjplist.size() == 1) {
+                c72.setVisibility(View.GONE);
+                c73.setVisibility(View.GONE);
+                c74.setVisibility(View.GONE);
+                c75.setVisibility(View.GONE);
+                c76.setVisibility(View.GONE);
+            }
+            else if (bjplist.size() == 2) {
+                c73.setVisibility(View.GONE);
+                c74.setVisibility(View.GONE);
+                c75.setVisibility(View.GONE);
+                c76.setVisibility(View.GONE);
+            }
+            else if (bjplist.size() == 3) {
+
+                c74.setVisibility(View.GONE);
+                c75.setVisibility(View.GONE);
+                c76.setVisibility(View.GONE);
+            }
+            else if (bjplist.size() == 4) {
+
+                c75.setVisibility(View.GONE);
+                c76.setVisibility(View.GONE);
+            }
+            else if (bjplist.size() == 5) {
+                c76.setVisibility(View.GONE);
+            }
+        }catch (NullPointerException e){
+            c71.setVisibility(View.GONE);
+            c72.setVisibility(View.GONE);
+            c73.setVisibility(View.GONE);
+            c74.setVisibility(View.GONE);
+            c75.setVisibility(View.GONE);
+        }
+
         c71.setOnCheckedChangeListener(this);
         c72.setOnCheckedChangeListener(this);
         c73.setOnCheckedChangeListener(this);
@@ -66,6 +133,11 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
 
                         Intent intent = new Intent(Servey16.this,Servey17.class);
                         intent.putExtra("json",jsonObject.toString());
+                    intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                    intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                    intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                    intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                    intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                         startActivity(intent);
 
                 }
@@ -171,8 +243,8 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
                     c75.setChecked(false);
                     c71.setChecked(false);
 
-//                    jsonObject.put("q_17",compoundButton.getText());
-                    jsonObject.put("q_17","0");
+                    jsonObject.put("q_17",compoundButton.getText());
+//                    jsonObject.put("q_17","0");
 
                 }
                 else {
