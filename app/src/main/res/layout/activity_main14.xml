@@ -91,7 +91,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Others/can't say"
+                    android:text="abc"
                     android:layoutDirection="rtl"
                     android:textSize="14dp"
                     android:layout_marginLeft="30dp"
@@ -106,7 +106,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:layoutDirection="rtl"
-                    android:text="Others/can't say"
+                    android:text="Other/cant say"
                     android:textSize="14dp"
                     android:visibility="visible" />
 
@@ -181,7 +181,7 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Others/can't say"
+                    android:text="Other/cant say"
                     android:layoutDirection="rtl"
                     android:textSize="14dp"
                     android:layout_marginLeft="30dp"

@@ -321,6 +321,11 @@ public class Servey18 extends AppCompatActivity {
                 if (jsonObject.has("q_20_1") && jsonObject.has("q_20_2") && jsonObject.has("q_20_3") && jsonObject.has("q_20_4") && jsonObject.has("q_20_5") && jsonObject.has("q_20_6") && jsonObject.has("q_20_7") && jsonObject.has("q_20_8")) {
                     Intent intent = new Intent(Servey18.this,Servey5.class);
                     intent.putExtra("json",jsonObject.toString());
+                    intent.putExtra("bjplist",getIntent().getStringArrayListExtra("bjplist"));
+                    intent.putExtra("bsplist",getIntent().getStringArrayListExtra("bsplist"));
+                    intent.putExtra("splist",getIntent().getStringArrayListExtra("splist"));
+                    intent.putExtra("inclist",getIntent().getStringArrayListExtra("inclist"));
+                    intent.putExtra("otherlist",getIntent().getStringArrayListExtra("otherlist"));
                     startActivity(intent);
 
                 }

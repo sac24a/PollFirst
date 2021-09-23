@@ -73,34 +73,34 @@ public class Servey16 extends AppCompatActivity implements CompoundButton.OnChec
                 c73.setVisibility(View.GONE);
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 1) {
                 c72.setVisibility(View.GONE);
                 c73.setVisibility(View.GONE);
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 2) {
                 c73.setVisibility(View.GONE);
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 3) {
 
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 4) {
 
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 5) {
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
         }catch (NullPointerException e){
             c71.setVisibility(View.GONE);

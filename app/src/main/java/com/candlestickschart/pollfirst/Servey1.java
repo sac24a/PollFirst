@@ -81,6 +81,8 @@ public class Servey1 extends AppCompatActivity implements CompoundButton.OnCheck
                 finish();
             }
         });
+
+
         forward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

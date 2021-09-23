@@ -57,6 +57,7 @@ public class  Dashboard extends AppCompatActivity {
         editor = sharedPreferences.edit();
         mDBb = PollFirstDataBase.getInstance(this);
         insertedText.setText("Inserted Records: 0");
+        newSample.setEnabled(false);
 
 
         newSample.setOnClickListener(new View.OnClickListener() {
@@ -164,6 +165,13 @@ public class  Dashboard extends AppCompatActivity {
                             JSONObject postParam = new JSONObject();
                             postParam.put("user_id",pollFirstData.get(i).user_id);
                             postParam.put("user_mobile_no",pollFirstData.get(i).user_mobile_no);
+                            postParam.put("District",sharedPreferences.getString("District",""));
+                            postParam.put("LS_name",sharedPreferences.getString("LS_name",""));
+                            postParam.put("AC_no",sharedPreferences.getString("AC_no",""));
+                            postParam.put("AC_Name",sharedPreferences.getString("AC_Name",""));
+                            postParam.put("QC_Mobile_No",sharedPreferences.getString("QC_Mobile_No",""));
+                            postParam.put("ZC_Mobile_No",sharedPreferences.getString("ZC_Mobile_No",""));
+                            postParam.put("TL_Mobile_No",sharedPreferences.getString("TL_Mobile_No",""));
                             postParam.put("c_1",pollFirstData.get(i).c_1);
                             postParam.put("c_2",pollFirstData.get(i).c_2);
                             postParam.put("c_3",pollFirstData.get(i).c_3);
@@ -221,7 +229,7 @@ public class  Dashboard extends AppCompatActivity {
                             postParam.put("location",pollFirstData.get(i).location);
                             postParam.put("home_photo",pollFirstData.get(i).home_photo);
                             jsonArray.put(postParam);
-//                            Log.d("JsonToUpload", "run: "+jsonArray);
+                            Log.d("JsonToUpload", "run: "+jsonArray);
                         }
                         sendData(jsonArray);
                     }
@@ -260,7 +268,9 @@ public class  Dashboard extends AppCompatActivity {
                                     });
                                     Toast.makeText(Dashboard.this,jsonObject.getString("message"),Toast.LENGTH_SHORT).show();
                                     checkDataForUpload();
+                                    getInsertedData();
                                 }
+
                                 else  {
                                     Toast.makeText(Dashboard.this,jsonObject.getString("message"),Toast.LENGTH_SHORT).show();
                                 }
@@ -332,6 +342,7 @@ public class  Dashboard extends AppCompatActivity {
     ArrayList<String> otherList = new ArrayList<>();
     public void getCandidateList(){
         try {
+            progressBar.setVisibility(View.VISIBLE);
             String url = "https://linier.in/UK/Rishikesh/API/Candidate_RecordList.php";
             Map<String, String> postParam= new HashMap<String, String>();
             postParam.put("AC_no", sharedPreferences.getString("AC_no",""));
@@ -344,6 +355,7 @@ public class  Dashboard extends AppCompatActivity {
                             // response
                             Log.e("Responselogin", response.toString());
                             progressBar.setVisibility(View.GONE);
+                            newSample.setEnabled(true);
                             try {
 
                                 JSONObject jsonObject = new JSONObject(response.toString());
@@ -361,7 +373,7 @@ public class  Dashboard extends AppCompatActivity {
                                     else if (jsonArray.getJSONObject(i).getString("Party_name").equals("INC")) {
                                         incList.add(jsonArray.getJSONObject(i).getString("name")+"("+jsonArray.getJSONObject(i).getString("Party_name")+")");
                                     }
-                                    else if (jsonArray.getJSONObject(i).getString("Party_name").equals("OTHER")) {
+                                    else if (jsonArray.getJSONObject(i).getString("Party_name").equals("Other")) {
                                         otherList.add(jsonArray.getJSONObject(i).getString("name")+"("+jsonArray.getJSONObject(i).getString("Party_name")+")");
                                     }
                                 }
@@ -369,6 +381,12 @@ public class  Dashboard extends AppCompatActivity {
                             catch (JSONException e) {
 
                             }
+                            Log.d("TAG", "onResponse: "+bjpList);
+                            Log.d("TAG", "onResponse: "+bspList);
+                            Log.d("TAG", "onResponse: "+spList);
+                            Log.d("TAG", "onResponse: "+incList);
+                            Log.d("TAG", "onResponse: "+otherList);
+
                         }
                     },
                     new Response.ErrorListener() {
@@ -376,6 +394,7 @@ public class  Dashboard extends AppCompatActivity {
                         public void onErrorResponse(VolleyError error) {
                             Log.d("Its inserted error === >", "onErrorResponse: "+error);
                             progressBar.setVisibility(View.GONE);
+                            newSample.setEnabled(true);
 
                         }
                     }

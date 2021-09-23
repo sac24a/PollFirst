@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -67,7 +68,7 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
 
         try {
             ArrayList<String>bjplist = getIntent().getStringArrayListExtra("bjplist");
-
+            Log.d("TAG", "onCreate: "+bjplist);
             for(int i = 0;i<bjplist.size();i++) {
                 if (i==0) {
                     c71.setText(bjplist.get(i));
@@ -94,34 +95,34 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                 c73.setVisibility(View.GONE);
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 1) {
                 c72.setVisibility(View.GONE);
                 c73.setVisibility(View.GONE);
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 2) {
                 c73.setVisibility(View.GONE);
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 3) {
 
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 4) {
 
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 5) {
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
         }catch (NullPointerException e) {
             c71.setVisibility(View.GONE);
@@ -159,32 +160,32 @@ public class MainActivity14 extends AppCompatActivity implements CompoundButton.
                 c710.setVisibility(View.GONE);
                 c711.setVisibility(View.GONE);
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 1) {
                 c79.setVisibility(View.GONE);
                 c710.setVisibility(View.GONE);
                 c711.setVisibility(View.GONE);
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 2) {
                 c710.setVisibility(View.GONE);
                 c711.setVisibility(View.GONE);
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 3) {
                 c711.setVisibility(View.GONE);
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 4) {
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 5) {
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
         }catch (NullPointerException e) {
             c78.setVisibility(View.GONE);

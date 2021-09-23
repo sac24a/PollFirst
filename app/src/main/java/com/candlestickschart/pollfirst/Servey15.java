@@ -94,34 +94,34 @@ public class Servey15 extends AppCompatActivity implements CompoundButton.OnChec
                 c73.setVisibility(View.GONE);
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 1) {
                 c72.setVisibility(View.GONE);
                 c73.setVisibility(View.GONE);
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 2) {
                 c73.setVisibility(View.GONE);
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 3) {
 
                 c74.setVisibility(View.GONE);
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 4) {
 
                 c75.setVisibility(View.GONE);
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
             else if (bjplist.size() == 5) {
-                c76.setVisibility(View.GONE);
+//                c76.setVisibility(View.GONE);
             }
         }
         catch (NullPointerException e) {
@@ -159,32 +159,32 @@ public class Servey15 extends AppCompatActivity implements CompoundButton.OnChec
                 c710.setVisibility(View.GONE);
                 c711.setVisibility(View.GONE);
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 1) {
                 c79.setVisibility(View.GONE);
                 c710.setVisibility(View.GONE);
                 c711.setVisibility(View.GONE);
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 2) {
                 c710.setVisibility(View.GONE);
                 c711.setVisibility(View.GONE);
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 3) {
                 c711.setVisibility(View.GONE);
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 4) {
                 c712.setVisibility(View.GONE);
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
             else if (splist.size() == 5) {
-                c713.setVisibility(View.GONE);
+//                c713.setVisibility(View.GONE);
             }
         }catch (NullPointerException e) {
             c78.setVisibility(View.GONE);

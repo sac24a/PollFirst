@@ -26,7 +26,7 @@
                 android:background="@drawable/blackborder"
                 android:hint="नाम"
                 android:gravity="center"
-                android:textSize="16dp"
+                android:textSize="18dp"
                 android:id="@+id/name"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
@@ -39,7 +39,7 @@
                 android:background="@drawable/blackborder"
                 android:hint="मोबाईल नंबर"
                 android:gravity="center"
-                android:textSize="16dp"
+                android:textSize="18dp"
                 android:id="@+id/mobileNumber"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
@@ -50,17 +50,17 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <Button
+                    android:id="@+id/location"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
                     android:background="@drawable/blackborder"
                     android:text="स्थान- लोकेशन"
-                    android:textSize="16dp"
-                    android:id="@+id/location"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:layout_marginTop="20dp"
-                    />
+                    android:textSize="18dp" />
                 <ProgressBar
                     android:layout_width="20dp"
                     android:layout_height="20dp"
